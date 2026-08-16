@@ -1,0 +1,49 @@
+Day 1: Big-O notation and Algorithm Analysis
+
+Definition:
+-Algoritma analizi bir algoritma için gerekli zaman ve kaynağı belirleyerek problemleri çözmemize yardımcı olur.
+-Algoritma seçerken işimizi kolaylaştırır.
+-Bu bir kod değil, algoritma seçimidir.
+
+
+Big-O notation:
+- En kötü durum(worst case)
+-Üst sınır(upper bound)
+-Algoritma seçerken işimizi kolaylaştırır.
+-Bu bir kod değil, algoritma seçimidi.
+
+Omega notation:
+-Asimptotik bir alt sınırı(lower bound) ifade eder.
+-En iyi durumdur.
+
+Teta notation:
+-Aradaki yani average-case olan durumdur.
+
+O(1) -> Constant
+O(N) -> Linear
+O(N^ 2) → Quadratic
+O(log N) → Logarithmic
+O(N log N) → Linearithmic
+O(c^N)→ Exponential
+O(N!) → Factorial
+
+Yaygın karmaşıklık sıralaması (küçükten büyüğe):
+O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)
+
+Best-Case(lower-bound): Algoritmada yürütme zamanı, maliyet ve karmaşıklık hesaplanırlen en
+iyi sonucu elde etme durumudur.
+
+Worst-Case(upper bound): Olabilecek en kötü olasılıktır.
+
+Average-Case(growth rate): En kötü durum ile en kötü durum arasında çıkan durumdur.
+
+
+Basit bir pseudocode örneği:
+for i in range(n):        # O(n)
+    print(i)
+
+for i in range(n):        # O(n^2) - iç içe döngü
+    for j in range(n):
+        print(i, j)
+
+
