@@ -1,0 +1,60 @@
+Day 2 Arrays and String Manipulation
+
+//static array
+int static_array[10]; //stack
+
+//dynamic array
+int* dynamic_array = new nt[10]; //heap
+
+#Statik diziler: Bellekte stack üzerinde yer kaplayan, boyutları önceden belirlenmiş sabit dizilerdir. Boyutu derleme zamaında belirlenir ve çalışma zamanında değiştirilemez.
+
+Avantajları:
+-Hızlı erişim sağlar(O(1)).
+Basit kullanım.
+Haıza yönetimi otomatik ve verimlidir.
+
+Dezavantajları:
+-Boyutu sabittir, çalışma zamanında değişmez.
+-Bellek sınırlıdır(stack sınırı aşılırsa hata verir).
+
+#Dinamik diziler: Bellekte heap üzerinde yer kaplayan ve boyutları çalışma zamanında belirlenen dizilerdir. Programcı manuel olarak oluşturup silmesi gerekir.
+
+Avantajları:
+-Esnek boyutlandırma.
+-Büyük verileri işleyebilme
+
+Dezavantajları:
+-Manuel bellek yönetimi.
+-Heap üzerinde olduğu için stack dizilere göre yavaş erişim.
+-Yanlış bellek yönetimi nedeniyle bellek sızıntıları.
+
+++Boyut sabit ve küçükse, hızlı işlem için statik diziler tercih edilebilir.
+++Boyut çalışma zamanında değişiyor veya büyük veri işlenecekse dinamik diziler tercih edilebilir.
+
+
+%%Stringe neden değişmez(Immutabble)?
+-Güvenlik(security):Dosya yolları, ağ bağlantıları veya veritabanı bilgileri string olarak tutulur. Değişmez olmaları, bu kritik verilerin sonradan değiştirilmesini sağlar.
+-Önbellek(string Interning): Aynı değere sahip stingler bellek havuzunda tek bir nesne olarak saklanır. Değişmezlik, bu havuzun güvenli çalışmasını sağlar.
+-Hash kod optimizasyonu: HashMap gibi yapılarda anahtar(key) olarak kullanılırken hash değeri bir kez hesaplanır ve önbelleğe alınır. Yeniden hesaplama gerekmez.
+-İş parçacığı güvenliği(thread safety): Aynı strimg nesnesi birden fazla iş parçacığı tarafından aynı anda güvenle paylaşılabilir.
+
+%%Two Pointer Tekniği nedir?
+-Bir veri yapısı üzerinde hareket eden iki adet "işaretçi" kullanmaktır.
+Amacımız, bu iki işaretçiyi belirli kurallara göre hareket ettirerek, diziyi sadece bir kez baştan sona tarayarak çözüme ulaşmaktır. O(n^2)'den kaçınmanın anahtarı budur.
+
+
+Sliding Window nedir?
+-Bir dizi veya metin içinde sabit ya da değişken uzunluklu bir alt parçayı (alt dizi/alt string) verimli şekilde incelemek için kullanılan bir algoritma tekniğidir. Tekrar eden gereksiz hesaplamaları önleyerek zaman karmaşıklığını genellikle \(O(N)\) seviyesine indirir.
+
+Kullanıldığı problem tipleri
+-Belirli bir uzunluktaki (\(k\)) maksimum veya minimum toplamı bulma
+-Verilen bir koşulu sağlayan en uzun/en kısa alt string veya alt dizi bulma
+-İçinde belirli harflerin veya öğelerin tam olarak geçtiği alt kümeleri arama
+-Bir string'in içinde diğer bir string'in anagramını kontrol etme
+
+Nasıl çalışır?
+1-Bir başlangıç ve bir bitiş noktası (\(left\) ve \(right\)) tutulur.
+2-Pencere sağa doğru kaydırılırken yeni eleman içeri eklenir.
+3-Eski eleman pencereden çıkarılır.
+4-Tüm diziyi baştan tekrar taramak yerine sadece değişen uçlar güncellenir.
+
