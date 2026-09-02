@@ -1,0 +1,4 @@
+Gene herhangi bir şey yaziyorum.
+bakalim ne zaman
+Belli bir karaktere kadar görmezden gelir
+getline fonksiyonu kullanimi

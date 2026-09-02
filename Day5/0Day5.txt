@@ -1,0 +1,22 @@
+
+Day5: Memory hierarchy 
+
+	register/L1			^
+	L2 cache			|fastest
+	L3 cache			|smallest
+	Main memory(RAM)		|most expensive
+	Second memory(SSD & HDD)	|
+
+RAM:
+-It needs electric flow continuously
+-It calls 'volatile'
+-All processes are terminated when the computer is shut down.
+-It is located on the motherboard.
+
+!!!RAM speed, CPU cache size, and disk type are just as important as capacity.
+
+Cache hit:
+-It finds the requested data in the cache and serves it without accessing the disk.
+
+Cache miss:
+-It doesn't find the requested data in the cache and serves on the disc

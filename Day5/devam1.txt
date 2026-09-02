@@ -1,0 +1,3 @@
+ Herhangi bir şey yaziyorum.
+ Bu dosyanin sonuna ekleneceknu tellp 
+ ve seekp komutlarini deneyeceğiz.
