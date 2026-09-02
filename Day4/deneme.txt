@@ -1,0 +1,3 @@
+Bu konuyu daha iyi anlayabilmek için yaptiğim bir denemedir.
+ 'ofstream' nesnesi ile dosya yazma işlemi yapiliyor.
+

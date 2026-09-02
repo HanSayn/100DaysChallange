@@ -1,0 +1,34 @@
+Day4:File Methots
+
+Bugün dosya metotlarını yani dosyalarda yazma okuma kısmını hallettim.
+
+ofstream: Dosya oluşturma ve yazma işlemini yapar.
+ifstream: Dosya okuma işlemini yapar.
+fstream: İkisinin kombinasyonu olarak dosya oluşturma, yazma ve okuma işlemini yapar.
+
+Dosya modları##
+
+ios::app 
+-Yazma amacıyla açılan bir dosyaya gönderilen tüm verilerin dosyanın sonuna eklenmesini sağlar.
+-Dosyaya yapılan her yazma işleminde, dosya konum göstergesi dosyanın sonunu gösterecek şekilde ayarlanır.
+-Yani dosyaya ekleye ekleye devam eder.
+
+ios::ate
+-Dosya açılışında,dosya konum göstergesini dosya sonuna ayarlar.
+-Dosya konum göstergesi farklı bir konuma ayarlanabilir.
+-Yani başa,ortaya veya sona ekleyebiliriz.
+
+ios::binary
+-Dosyayı ikili modda açar.
+-0 ve 1 olarak yani.
+
+ios::in
+-Okuma işlemini yapar.
+
+ios::out
+-Yazma işlemi yapar.
+
+ios::trunc
+-Önceden var olan aynı isme sahip bir dosya içeriğinin tamamen silinmesini ve dosya uzunluğunun sıfır değerine getirilmesini sağlar.
+-Dosya açılırken ofstream paramatresi kullanılırsa, aynı isme sahip bir dosya varsa, otomatik olarak içeriği silinir.
+
