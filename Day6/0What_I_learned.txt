@@ -1,0 +1,5 @@
+
+Day 6 ##
+
+-Bitler, Byte'lar ve Sayı Sistemleri (Binary & Hex)
+

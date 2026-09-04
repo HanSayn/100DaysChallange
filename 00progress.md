@@ -1,0 +1,8 @@
+--Day--|-------Topic----------------------------------------|
+--01---| Algorithm Analysis
+--02---| Arrays, string manipulation
+--03---| Rock, paper, scissor game
+--04---| File methods:ofstream,ifstream,fstream,in,out
+--05---| File methods:tellp,seekp,ate,end,withClass,ignore
+--06---| File methods:tampon bellek,seekp,seekg
+--07---|
