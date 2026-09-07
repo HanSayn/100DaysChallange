@@ -5,7 +5,7 @@
 --04---| File methods:ofstream,ifstream,fstream,in,out
 --05---| File methods:tellp,seekp,ate,end,withClass,ignore
 --06---| File methods:tampon bellek,seekp,seekg
---07---|lambda + vector fonks
---08---|element access, capacity , modifiers
---09---|list + STL
---10---|
+--07---| lambda + vector fonks
+--08---| element access, capacity , modifiers
+--09---| list + STL
+--10---| General review
