@@ -8,4 +8,5 @@
 --07---| lambda + vector fonks
 --08---| element access, capacity , modifiers
 --09---| list + STL
---10---| General review
+--10---| General review -GCD AND LCM app-
+--11---| HAS-A, Inheritance

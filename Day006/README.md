@@ -27,3 +27,4 @@
 - I wrapped up the topic of file operations through both YouTube videos and coding exercises. I completed a few exercises that helped me improve my skills. I hope these efforts prove useful to me in the coming days.
 
 7/10
+
