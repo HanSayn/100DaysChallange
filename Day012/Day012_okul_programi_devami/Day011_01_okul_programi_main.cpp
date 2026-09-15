@@ -13,20 +13,13 @@
 using namespace std;
 
 int main(){
-	ogretmen o1;
-	mudur m1;
-
-	o1.isim_ver("Tuna");
-	o1.yas_ver(21);
-	o1.ogrencisayisi_ver(321);
-
-	m1.isim_ver("Kemal");
-	m1.yas_ver(54);
-	m1.ogrencisayisi_ver(450);
-	m1.ogretmensayisi_ver(25);
-	m1.okuladi_ver("Ataturk");
-
-	o1.yazdir();
-	m1.yazdir();
+ogretmen o1;
+mudur m1;
+o1.isim_ver("Tuna");
+o1.yas_ver(21);
+o1.ogrencisayisi_ver(321);
+m1.isim_ver("Kemal");
+m1.yas_ver(54);
+m1.okuladi_ver("Ataturk");
 
 }

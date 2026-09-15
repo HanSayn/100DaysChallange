@@ -10,46 +10,38 @@
 #ifndef DAY011_01_OKUL_PROGRAMİ_HASH_H
 #define DAY011_01_OKUL_PROGRAMİ_HASH_H
 
-#include <iostream>
-#include <string>
-using namespace std;
 class ogretmen{  
 protected:
-    string isim;
+    char *isim;
     int yas;
     int ogrenciSayisi;
 public:
-    void isim_ver(const string& i1){
+    void isim_ver(char *i1){
         isim = i1;
+        cout << i1;
     }
     void yas_ver(int y1){
         yas = y1;
+        cout << y1;
     }
     void ogrencisayisi_ver(int os){
         ogrenciSayisi = os;
-    }
-    void yazdir() const {
-        cout << "Ogretmen: " << isim
-                  << " | Yas: " << yas
-                  << " | Ogrenci sayisi: " << ogrenciSayisi << '\n';
+        cout << os;
     }
 };
 
 class mudur:public ogretmen{
 protected:
     int ogretmenSayisi;
-    std::string okulAdi;
+    char *okulAdi;
 public:
     void ogretmensayisi_ver(int os1){
         ogretmenSayisi = os1;
+        cout << os1;
     }
-    void okuladi_ver(const string& oa){
+    void okuladi_ver(char *oa){
         okulAdi = oa;
-    }
-    void yazdir() const {
-        ogretmen::yazdir();
-        cout << "Okul: " << okulAdi
-                  << " | Ogretmen sayisi: " << ogretmenSayisi << '\n';
+        cout << oa;
     }
 };
 
