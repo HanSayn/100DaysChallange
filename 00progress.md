@@ -10,3 +10,5 @@
 --09---| list + STL
 --10---| General review -GCD AND LCM app-
 --11---| HAS-A, Inheritance
+--12---| HAS-A, Intherince contiune
+--13---| Pointer

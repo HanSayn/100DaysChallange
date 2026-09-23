@@ -30,9 +30,9 @@ public:
     }
     void yazdir() const {
         cout << "Ogretmen: " << isim
-                  << " | Yas: " << yas
-                  << " | Ogrenci sayisi: " << ogrenciSayisi << '\n';
-    }
+            << " | Yas: " << yas
+                << " | Ogrenci sayisi: " << ogrenciSayisi << '\n';
+}
 };
 
 class mudur:public ogretmen{
@@ -49,7 +49,7 @@ public:
     void yazdir() const {
         ogretmen::yazdir();
         cout << "Okul: " << okulAdi
-                  << " | Ogretmen sayisi: " << ogretmenSayisi << '\n';
+            << " | Ogretmen sayisi: " << ogretmenSayisi << '\n';
     }
 };
 

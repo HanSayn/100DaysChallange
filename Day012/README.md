@@ -11,12 +11,14 @@
 -English
 -The book summarize✅
 -Baranemo videsu(Nasıl adam olunur?)✅
+
 ##  Yapılanlar
 -Öğretmen, müdür, öğrenci bilgileri programını bitirdim.
 -Alttaki kodu terminale yazarsak kodumun çıktısı verilir
 cd "/Users/tunahanteker58/Desktop/100_days_challange/Day011/Day011_001_okul_programı" && g++ -std=c++17 -Wall -Wextra Day011_01_okul_programi_main.cpp -o Day011_01_okul_programi_main && ./Day011_01_okul_programi_main
 
 -Baranemo videosu izlendi
+
 ##  Bugün Öğrendiklerim
 -Miras alma olayı
 -Class yapısı
